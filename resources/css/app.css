@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f6fa;
+    color: #2f3640;
+    padding: 20px;
+}
+
+/* ================= HEADER ================= */
+h1, h2, h3 {
+    color: #273c75;
+    margin-bottom: 15px;
+}
+
+/* ================= CONTAINER ================= */
+.container {
+    width: 90%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* ================= FORM ================= */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #dcdde1;
+    border-radius: 5px;
+    outline: none;
+}
+
+input:focus, select:focus {
+    border-color: #40739e;
+}
+
+/* ================= BUTTON ================= */
+button, input[type="submit"] {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #40739e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #273c75;
+}
+
+/* ================= TABLE ================= */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background: white;
+}
+
+table th, table td {
+    border: 1px solid #dcdde1;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #40739e;
+    color: white;
+}
+
+/* ================= ALERT ================= */
+.alert {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.alert-success {
+    background-color: #dff9fb;
+    color: #1e90ff;
+}
+
+.alert-error {
+    background-color: #ffcccc;
+    color: #c23616;
+}
+
+/* ================= CHECKBOX ================= */
+input[type="checkbox"] {
+    width: auto;
+    transform: scale(1.2);
+}
